@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <div class="profile-card">
+        <img src="./mine.jpg" alt="Profile Picture" data-testid="profilePicture">
+        <h1 data-testid="fullName">Ja'afar Sadiq</h1>
+        <h2 data-testid="jobTitle">Frontend Developer</h2>
+        <p data-testid="shortBio">Passionate about creating user-friendly and responsive web applications. Always eager to learn and grow in the field of frontend development.</p>
+        <p data-testid="currentLocation">Zaria, Kaduna, Nigeria </p>
+        <p data-testid="emailAddress">JaafarsadiqYusuf@gimail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="www.linkedin.com/in/ja-afar-sadiq-612a72294">LinkedIn</a>
+            <a href="https://github.com/Sadiq-jaafar">GitHub</a>
+            <a href="https://x.com/JaafarSadiqyusu">Twitter</a>
+        </div>
+        <p data-testid="currentTimeUTC">Current UTC Time: <span id="utc-time"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
